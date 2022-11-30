@@ -24,7 +24,21 @@ const Home = () => {
       <div className="absolute bottom-0 left-0 h-[40vh] w-screen bg-gradient-to-t from-gray-300/10 to-gray-300"></div>
       <Snow />
       <div className="text-shadow flex h-3/5 w-screen items-center justify-center bg-slate-900 text-[100px]">
-        CQLNS
+        <span className="hover:text-red-700 hover:text-shadow-red transition duration-500 cursor-cell">
+          C
+        </span>
+        <span className="hover:text-red-700 hover:text-shadow-red transition duration-500 cursor-cell">
+          Q
+        </span>
+        <span className="hover:text-red-700 hover:text-shadow-red transition duration-500 cursor-cell">
+          L
+        </span>
+        <span className="hover:text-red-700 hover:text-shadow-red transition duration-500 cursor-cell">
+          N
+        </span>
+        <span className="hover:text-red-700 hover:text-shadow-red transition duration-500 cursor-cell">
+          S
+        </span>
       </div>
     </div>
   )

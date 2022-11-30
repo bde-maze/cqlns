@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-shadow { text-shadow:0px 0px 19px #ffffff8a; }
+  .text-shadow-red:hover { 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, text-shadow;
+    transition-duration: 500ms;
+    text-shadow:0px 0px 19px #b91c1c81 !important; }
+}
+
 html,
 body {
   padding: 0;
@@ -28,7 +37,8 @@ a {
 }
 
 
-.text-shadow { text-shadow:0px 0px 19px #ffffff8a; }
+
+
 
 .wave-background {
 background-color: #ffffff;
