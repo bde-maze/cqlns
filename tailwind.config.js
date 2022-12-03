@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         cursive: ['var(--font-rubik-glitch)', 'cursive'],
       },
+      backdropBlur: {
+        xs: '2px',
+      },
     },
   },
   plugins: [],
