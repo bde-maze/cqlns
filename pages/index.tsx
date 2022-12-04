@@ -20,7 +20,7 @@ const Snow = () => {
 
 const Home = () => {
   return (
-    <div className="min-w-screen relative h-screen wave-background">
+    <div className="min-w-screen relative h-screen wave-background select-none">
       <div className="absolute bottom-0 backdrop-blur-xs left-0 h-[20vh] w-screen bg-gradient-to-t from-gray-300/10 to-gray-400">
         <div className="absolute top-[-50px] left-[75px] w-full h-full">
           <div className="absolute triangle left-3 top-2 z-50 w-14 h-8 border border-white bg-green-500"></div>
