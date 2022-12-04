@@ -22,7 +22,9 @@ const concertOne = Concert_One({
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <main className={`${rubikGlitch.variable} font-cursive font-normal`}>
+    <main
+      className={`${rubikGlitch.variable} font-cursive font-normal w-screen h-screen overflow-hidden`}
+    >
       <Component {...pageProps} />
     </main>
   )
